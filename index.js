@@ -2,14 +2,14 @@
 const canvas = document.querySelector('canvas')
 
 const c = canvas.getContext('2d')
-canvas.width=1440
+canvas.width=1250
 canvas.height=2200
 
 c.fillStyle='white'
 c.fillRect(0, 0, canvas.width, canvas.height)
 
 const image = new Image()
-image.src='./img/ZOOM_MAP.png'
+image.src='./img/MAP1.png'
 
 const playerImage = new Image()
 playerImage.src='./img/playerUp.png'
